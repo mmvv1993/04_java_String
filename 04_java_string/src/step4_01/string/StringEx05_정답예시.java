@@ -17,7 +17,7 @@ public class StringEx05_정답예시 {
 		System.out.println(age + "세");
 		
 		
-		
+		 
 		// 문제 2) 성별 출력
 		// 정답 2) 여성
 		

@@ -11,7 +11,7 @@ public class StringEx05_문제 {
 		
 		// 문제 2) 성별 출력
 		// 정답 2) 여성
-
+ 
 	}
 
 }

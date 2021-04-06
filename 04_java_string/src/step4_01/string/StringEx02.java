@@ -9,7 +9,7 @@ import java.util.Scanner;
  * - 문자열은  == 로 비교하지 않고 equals()메소드를 이용하여 비교한다.
  * 
  * */
-
+ 
 public class StringEx02 {
 
 	public static void main(String[] args) {

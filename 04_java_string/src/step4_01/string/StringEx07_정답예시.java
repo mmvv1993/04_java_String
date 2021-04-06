@@ -20,7 +20,7 @@ public class StringEx07_정답예시 {
 			name[i] = temp2[0];
 			score[i] = Integer.parseInt(temp2[1]);
 		}
-		
+		 
 		System.out.println(Arrays.toString(name));
 		System.out.println(Arrays.toString(score));
 		

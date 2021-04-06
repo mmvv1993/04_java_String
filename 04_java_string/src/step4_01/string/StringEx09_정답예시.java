@@ -28,7 +28,7 @@ public class StringEx09_정답예시 {
 		// 셔플
 		for (int i=0; i<1000; i++) {
 			int r = ran.nextInt(words.length);
-			
+			 
 			String temp = words[0];
 			words[0] = words[r];
 			words[r] = temp;

@@ -23,7 +23,7 @@ public class StringEx10_정답예시 {
 		Scanner scan = new Scanner(System.in);
 		
 		String start = "자전거";
-		
+		 
 		while (true) {
 			
 			int size = start.length();

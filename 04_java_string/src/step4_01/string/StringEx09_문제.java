@@ -27,7 +27,7 @@ public class StringEx09_문제 {
 		
 		for(int i=0; i<100; i++) {
 			int r = ran.nextInt(words.length);
-			
+			 
 			String temp = words[0];
 			words[0] = words[r];
 			words[r] = temp;

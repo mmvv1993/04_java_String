@@ -9,7 +9,7 @@ public class StringEx03 {
 		String str = "megait";
 		System.out.println(str);
 		System.out.println("====================");
-		
+		 
 		// [1] 문자열의 길이 : length();
 		System.out.println(str.length());
 		int size = str.length();

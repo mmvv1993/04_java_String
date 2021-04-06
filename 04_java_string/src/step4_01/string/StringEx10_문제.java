@@ -24,7 +24,7 @@ public class StringEx10_문제 {
 		
 		String start = "자전거";
 		
-		
+		 
 		while(true) {
 			
 			System.out.println("제시어 : "+start);

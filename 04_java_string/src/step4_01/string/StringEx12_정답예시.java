@@ -18,7 +18,7 @@ public class StringEx12_정답예시 {
 		int identifier = -1;
 		
 		while (true) {
-			
+			 
 			System.out.println("-----------------------------");
 			System.out.print("상태 : ");
 			if ( identifier == -1 ) 		System.out.println("로그아웃");

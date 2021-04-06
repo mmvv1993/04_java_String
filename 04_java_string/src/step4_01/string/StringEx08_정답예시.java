@@ -22,7 +22,7 @@ public class StringEx08_정답예시 {
 		}
 
 		System.out.println(str);
-
+ 
 
 	}
 

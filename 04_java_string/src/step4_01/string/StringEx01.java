@@ -12,7 +12,7 @@ import java.util.Scanner;
  *  nextLine()은 버퍼관련 이슈가 생길 수 있으니 버퍼를 정리해 주어야 한다.
  * 
  * */
-
+ 
 public class StringEx01 {
 
 	public static void main(String[] args) {

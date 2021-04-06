@@ -21,7 +21,7 @@ public class StringEx06_정답예시 {
 			tot += arr[i];
 		}
 		System.out.println("tot = " + tot);
-		
+		 
 		
 		
 		// 문제 2) scores 배열의 각 점수를 슬러시를 구분자로 하나의 문자열로 연결

@@ -22,7 +22,7 @@ public class StringEx08_문제 {
 			if(i != name.length-1) {
 				str += ",";
 			}
-		}
+		} 
 		System.out.println(str);
 		
 
