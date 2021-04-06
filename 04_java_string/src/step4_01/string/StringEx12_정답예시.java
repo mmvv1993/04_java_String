@@ -57,45 +57,10 @@ public class StringEx12_정답예시 {
 				System.out.println("로그아웃 되었습니다.");
 			}
 			else if (sel == 3) {
-				if (identifier == -1) {
-					System.out.println("로그인 후 이용 가능합니다."); 
-					continue;
-				}
 				
-				while (true) {
-					
-					System.out.println("상품목록");
-					for(int i=0; i<items.length; i++) System.out.println("[" + (i+1) + "] " + items[i]);
-					System.out.println("[4]뒤로가기");
-					
-					System.out.print("상품번호를 선택하세요 : ");
-					
-					int choice = scan.nextInt();
-					
-					if ( choice == 4 ) break;
-					jang[count][0] = identifier;
-					jang[count][1] = choice;
-					
-					count++;
-											
-				}
-											
 			}
 			else if (sel == 4) {
-				int apple = 0;
-				int banana = 0;
-				int berry = 0;
 				
-				for (int i=0; i<count; i++) {
-					if		(jang[i][1] == 1) apple++;
-					else if (jang[i][1] == 2) banana++;
-					else if (jang[i][1] == 3) berry++;
-					
-				}
-				
-				System.out.println(items[0] + " : " + apple + "개");
-				System.out.println(items[1] + " : " + banana + "개");
-				System.out.println(items[2] + " : " + berry + "개");
 			}
 			else if (sel == 0) {
 				System.out.println("프로그램 종료");
