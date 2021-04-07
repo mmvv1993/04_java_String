@@ -12,9 +12,17 @@ public class StringEx04 {
 		int nNum = Integer.parseInt(sNum);  // Integer.parseInt("문자열")메서드 사용
 		System.out.println(nNum + 1);		// 11
 		
+		
 		System.out.println("====================");
 		 
 		// [2] 숫자 > 문자열 형변환
+		char ch = 'a';
+		int aNum = (int)ch;
+		System.out.println(aNum);
+		
+		ch = (char)(aNum + 1);
+		System.out.println(ch);
+		System.out.println("============");
 		
 		// 2-1) + "" 사용
 		String str1 = nNum + "";

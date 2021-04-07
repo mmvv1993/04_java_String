@@ -57,7 +57,7 @@ public class StringEx12_정답예시 {
 				System.out.println("로그아웃 되었습니다.");
 			}
 			else if (sel == 3) {
-				
+				// 다시해보고 커밋해야함
 			}
 			else if (sel == 4) {
 				
